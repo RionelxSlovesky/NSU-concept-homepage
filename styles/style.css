@@ -154,6 +154,7 @@
     .logo-2 {
         margin-left: 0;
         margin-bottom: 10px;
+        max-width: 350px;
 
     }
 
@@ -175,7 +176,12 @@
     }
 
     .contact-info-container {
+        width: 60%;
         margin-bottom: 30px;
+    }
+
+    .social-container {
+        width: 60%;
     }
 
 
