@@ -28,7 +28,11 @@
 .hbanner-container {
     height: 100vh;
     text-align: center;
-    background-color: #1A265C;
+    background-image: linear-gradient(#1A265C, #1A265C), url("/images/NSU-banner.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: hard-light;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +60,7 @@
     width: 500px;
     background-color: white;
     border-radius: 5px;
-    
+
 }
 
 .banner-img {
@@ -88,8 +92,8 @@
 
 /* footer */
 
-.footer-container{
-    color: white;
+.footer-container {
+    color: rgb(191, 187, 187);
     width: 100vw;
     display: flex;
     align-items: center;
@@ -100,6 +104,10 @@
 }
 
 .contact-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     width: 30%;
 }
 
@@ -129,7 +137,7 @@
         height: 1000px;
 
     }
-    
+
     .hbanner {
         flex-direction: column-reverse;
         padding-top: 30px;
@@ -137,10 +145,14 @@
         height: 700px;
     }
 
+    .ranking-container {
+        margin-bottom: 20px;
+    }
+
 }
 
 @media only screen and (max-width: 700px) {
-    
+
 
     /* nav */
     .nav-container {
@@ -165,7 +177,7 @@
 
 
     /* header */
-    .banner-img-container{
+    .banner-img-container {
         width: 360px;
     }
 
@@ -193,12 +205,9 @@
         height: 800px;
 
     }
-    
+
     .hbanner {
         height: 600px;
     }
 
 }
-
-
-
