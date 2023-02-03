@@ -88,6 +88,40 @@
 
 }
 
+/* body */
+
+.body-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-info-container {
+    width: 70%;
+    background-color: red;
+    height: 100%;
+
+}
+
+.notice-container {
+    width: 30%;
+    background-color: yellow;
+    height: auto;
+    padding: 25px 35px;
+    
+}
+
+.notice-title {
+    color: #1A265C;
+}
+
+.notice-date {
+    color: rgb(216, 143, 8);
+    margin-bottom: 15px;
+}
+
 
 
 /* footer */
@@ -179,6 +213,16 @@
     /* header */
     .banner-img-container {
         width: 360px;
+    }
+
+    /* body */
+
+    .body-container {
+        flex-direction: column;
+    }
+
+    .notice-container {
+        width: auto;
     }
 
     /* footer */
