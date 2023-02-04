@@ -28,7 +28,7 @@
 .hbanner-container {
     height: 100vh;
     text-align: center;
-    background-image: linear-gradient(#1A265C, #1A265C), url("/images/NSU-banner.jpeg");
+    background-image: linear-gradient(#1A265C, #1A265C), url("../images/NSU-banner.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
