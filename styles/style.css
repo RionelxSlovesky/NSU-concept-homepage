@@ -15,6 +15,11 @@
     border-radius: 5px;
 }
 
+.primary-btn:hover {
+    cursor: pointer;
+    
+}
+
 /* header */
 
 .nav-container {
@@ -186,6 +191,10 @@
     list-style: none;
 }
 
+.info-list-items {
+    cursor: pointer;
+    margin: 0 0 10px 0;
+}
 
 
 
